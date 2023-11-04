@@ -27,12 +27,12 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: const Color.fromARGB(255, 65, 1, 160),
+      color: const Color.fromARGB(255, 255, 255, 255),
       child: Center(
           child: Text(
         'Test Your Knowledge',
-        style: GoogleFonts.eduTasBeginner(
-            color: const Color.fromARGB(255, 255, 255, 255),
+        style: GoogleFonts.lato(
+            color: const Color.fromARGB(255, 78, 10, 195),
             fontSize: 20,
             fontWeight: FontWeight.bold),
       )),
